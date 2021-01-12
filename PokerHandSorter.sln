@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerHandSorter", "PokerHandSorter\PokerHandSorter.csproj", "{FA3FB363-9B22-4D29-A45A-6519F9212800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerHandSorter.Tests", "PokerHandSorter.Tests\PokerHandSorter.Tests.csproj", "{75667813-4E09-409C-B911-5D348232F48F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA3FB363-9B22-4D29-A45A-6519F9212800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3FB363-9B22-4D29-A45A-6519F9212800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3FB363-9B22-4D29-A45A-6519F9212800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3FB363-9B22-4D29-A45A-6519F9212800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75667813-4E09-409C-B911-5D348232F48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75667813-4E09-409C-B911-5D348232F48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75667813-4E09-409C-B911-5D348232F48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75667813-4E09-409C-B911-5D348232F48F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {718C22A1-D37B-43A9-A30D-726D2EA3BE87}
+	EndGlobalSection
+EndGlobal
