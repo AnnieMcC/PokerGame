@@ -23,13 +23,24 @@ namespace PokerHandSorter.Models
 
         private string[] GetDataFromFile()
         {
-            string[] lines = null;
-            var path = Path.GetRelativePath(Directory.GetCurrentDirectory(), _dataFilePath);
-            if (File.Exists(path))
+            try
             {
-                lines = File.ReadAllLines(_dataFilePath);
+                string[] lines = null;
+                var path = Path.GetRelativePath(Directory.GetCurrentDirectory(), _dataFilePath);
+                if (File.Exists(path))
+                {
+                    lines = File.ReadAllLines(_dataFilePath);
+                }
+                else
+                {
+                    throw new FileNotFoundException();
+                }
+                return lines;
             }
-            return lines;
+            catch (FileNotFoundException ex)
+            {
+                throw ex;
+            }
         }
     }
 }

@@ -15,7 +15,7 @@ namespace PokerHandSorter
             try
             {
                 Console.WriteLine("Press Enter to start the poker game...");
-             //   Console.ReadLine();
+                Console.ReadLine();
 
                 var players = new Dictionary<int, Player>();
                 for (int i = 0; i < numberOfPlayers; i++)

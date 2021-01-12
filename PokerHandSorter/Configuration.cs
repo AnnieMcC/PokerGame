@@ -23,8 +23,6 @@ namespace PokerHandSorter
 
             var containerBuilder = new ContainerBuilder();
             containerBuilder.RegisterType<PokerGameService>().As<IPokerGameService>();
-            //containerBuilder.RegisterType<DataLayerService>().As<IDataLayerService>();
-            //containerBuilder.RegisterType<JsonFileDataService>().As<IJsonFileDataService>();
 
            // containerBuilder.RegisterType<SerilogService>().As<ILoggerService>();
 
