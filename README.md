@@ -6,7 +6,7 @@ Poker Hand Sorter is a C# console app, build in .Net Core 3.1.
 
 * To load the program, run the following in a terminal & use the master branch
 
-`git clone https://github.com/AnnieMcC/PokerHandSorter`
+`git clone https://github.com/AnnieMcC/PokerGame`
 
 
 * The data text file is included in the application Project, at path
